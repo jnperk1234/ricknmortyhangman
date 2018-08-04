@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rick N Morty Hangman</title>
+    <link href="https://fonts.googleapis.com/css?family=Eater|Poor+Story" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+    <body>
+        <div class="container-fluid">
+            <br>
+            <br>
+            <div class="container" class="header">
+                <div class="row">
+                    <div class="col-6">
+                        <h1 class="title">Rick n Morty's</h1> 
+                        <h2 class="title2">Multi-verse </h2>
+                        <h1 class="title">Hangman!</h1>
+                    </div>    
+               </div>     
+            </div>    
+            
+            <br>
+
+                <div class="w3-container w3-teal" id="wordbox">
+                    <div class="col-5">
+                    <div class="info">
+                        <h3><span class="label label-default">
+                            Pick a letter and Get Swifty!
+                        </span></h3>
+                    </div>
+                    </div>
+                    <hr>
+                    <p id="categoryName"></p>
+                    <h2>
+                        <span id="tries"></span>
+                    </h2>
+                        <div id="guessed">Your Guesses:
+                        </div>
+                    <div id="blank" class="well">
+                    </div>   
+                    <button id="reset" class="btn btn-lg">Don't be A Jerry Play Again!</button> 
+                </div>
+            
+        </div>
+        <script  src="assets/js/index.js"></script>
+    </body>    
+</html>
